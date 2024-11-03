@@ -1,12 +1,13 @@
-const Hero = ()=> {
+import React from "react";
+const Hero: React.FC = ()=> {
     return (
-        <section>
+        <section className="">
     <div>
         <span>
             <h1 className="hidden">Unity through</h1>
             <h1 className="hidden">Asian Pop Culture</h1>
         </span>
-        <p className="hidden">Spark new connections by celebrating Asian Pop Culture and empowering Asian minoroties and local businesses.</p>
+        <p className="text-3xl font-bold underline">Spark new connections by celebrating Asian Pop Culture and empowering Asian minoroties and local businesses.</p>
     </div>
     <button className="hidden">Join Our Next Event</button>
     <svg width="581" height="607" viewBox="-2 -2 581 607" fill="none" xmlns="http://www.w3.org/2000/svg">
