@@ -1,7 +1,7 @@
 import React from "react";
 const Hero: React.FC = ()=> {
     return (
-        <section className="">
+        <section className="flex flex-col justify-center gap-12 p-32 md:px-10 lg:px-15 bg-[#fdf1ea] relative overflow-hidden m-0 mb-4">
     <div>
         <span>
             <h1 className="hidden">Unity through</h1>
