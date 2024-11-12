@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1 {
+      @apply text-4xl sm:text-3xl md:text-2xl lg:text-3xl;
+    }
+  
+    h2 {
+      @apply text-3xl sm:text-2xl md:text-xl lg:text-2xl;
+    }
+  
+    h3 {
+      @apply text-2xl sm:text-xl md:text-lg lg:text-xl;
+    }
+  
+    h4 {
+      @apply text-xl sm:text-lg md:text-base lg:text-lg;
+    }
+  
+    h5 {
+      @apply text-lg sm:text-base md:text-sm lg:text-base;
+    }
+    
+    .btn {
+        @apply w-fit font-black text-sm border-0 h-auto text-[#fefdfc] bg-[#d25d19] rounded-full py-3 px-12 text-center flex justify-center font-montserrat transition-colors duration-300 ease-in-out;
+    }
+    
+    .btn:hover {
+        @apply bg-[#ff7e34];
+    }
+
+    input, select, option {
+        @apply flex justify-center items-center w-full rounded-sm text-black bg-white font-semibold appearance-none h-12 px-8 text-sm;
+      }
+  
+  }
+  
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: all 0.2s;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-size: clamp(16px, 2vh, 2vh);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* Ensuring normal weight */
+  line-height: 1.4;
+  color: #201d15;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+}
+
+html {
+    height: fit-content;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+}
+
+/* Body styles */
+body {
+    position: relative;
+    width: clamp(250px, 100%, 100dvw);
+    height: 100%;
+}
+
+/* Ensure text elements like paragraphs and lists have no background color */
+p, li, ul {
+    background-color: transparent;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+/* Specific font sizes for headings */
+h1 {
+    font-size: 2.442rem; /* 39.04px */
+}
+
+h2 {
+    font-size: 1.954rem; /* 31.2px */
+}
+
+h3 {
+    font-size: 1.563rem; /* 24.96px */
+}
+
+h4 {
+    font-size: 1.250rem; /* 20px */
+}
+
+h5 {
+    font-size: 1.000rem; /* 16px */
+}
+
+/* Small text */
+small {
+    font-size: 0.640rem; /* 10.24px */
+}
+
+/* Bold text */
+b {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* next time, learn what these 3 do! */
+::selection {
+    background-color: rgb(80, 78, 77);
+}
+
+::placeholder {
+    color: #726f6c;
+    opacity: 0.8;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* confingure show and hidden down the line */
+.show {
+    opacity: 1;
+    scale: 1;
+    transition: 0.6s;
+}
+
+.hidden {
+    opacity: 0;
+    scale: 0;
+}
