@@ -4,7 +4,7 @@
 
 @layer components {
     h1 {
-      @apply text-4xl sm:text-3xl md:text-2xl lg:text-3xl;
+      @apply text-4xl sm:text-xl md:text-2xl lg:text-3xl;
     }
   
     h2 {
@@ -33,7 +33,37 @@
 
     input, select, option {
         @apply flex justify-center items-center w-full rounded-sm text-black bg-white font-semibold appearance-none h-12 px-8 text-sm;
-      }
+    }
+  
+    h1, h2, h3, h4, h5 {
+        @apply leading-5 font-bold bg-transparent
+    }
+
+        /* Specific font sizes for headings */
+    h1 {
+        @apply text-4xl
+    }
+
+    h2 {
+        @apply text-3xl
+    }
+
+    h3 {
+        @apply text-2xl
+    }
+
+    h4 {
+        @apply text-xl
+    }
+
+    h5 {
+        @apply text-base
+    }
+
+    a {
+        @apply no-underline
+    }
+
   
   }
   
@@ -73,34 +103,6 @@ p, li, ul {
     background-color: transparent;
 }
 
-/* Heading styles */
-h1, h2, h3, h4, h5 {
-    line-height: 1.2;
-    font-weight: 700;
-    background-color: transparent;
-}
-
-/* Specific font sizes for headings */
-h1 {
-    font-size: 2.442rem; /* 39.04px */
-}
-
-h2 {
-    font-size: 1.954rem; /* 31.2px */
-}
-
-h3 {
-    font-size: 1.563rem; /* 24.96px */
-}
-
-h4 {
-    font-size: 1.250rem; /* 20px */
-}
-
-h5 {
-    font-size: 1.000rem; /* 16px */
-}
-
 /* Small text */
 small {
     font-size: 0.640rem; /* 10.24px */
@@ -109,10 +111,6 @@ small {
 /* Bold text */
 b {
     font-weight: 700;
-}
-
-a {
-    text-decoration: none;
 }
 
 /* next time, learn what these 3 do! */
@@ -137,7 +135,8 @@ a {
     transition: 0.6s;
 }
 
-.hidden {
+/* Don't add hidden yet. do so at the end*/
+/* .hidden {
     opacity: 0;
     scale: 0;
-}
+} */

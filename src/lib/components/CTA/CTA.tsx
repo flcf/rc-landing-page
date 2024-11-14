@@ -10,7 +10,7 @@ const CTA = () => {
           charmer, we have a variety of opportunities.
         </p>
       </span>
-      <button className="hidden">Join Now</button>
+      <button className="hidden btn">Join Now</button>
     </section>
   );
 };
