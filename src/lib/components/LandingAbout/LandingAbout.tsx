@@ -1,25 +1,33 @@
 import LandingAboutLogo from "../../../static/assets/LandingAbout.png";
-const LandingAbout = () => {
-    return (
-      <section className="relative flex flex-row items-center gap-8 p-8 px-[15vw] min-h-[40em] md:flex-col md:px-[10vw] md:justify-center">
-        {/* First div with background image */}
-        <div className="absolute min-h-[90%] w-1/2 bg-cover bg-center md:relative md:h-[30em] md:w-full" 
-            style={{ backgroundImage: `url(${LandingAboutLogo})` }} >
-        </div>
-        
-        {/* Second div containing the content */}
-        <div className="translate-x-[40vw] bg-[#efeeee] p-8 flex flex-col justify-center gap-8 rounded-lg md:translate-x-0 md:w-4/5 md:-translate-y-[10em] md:p-4 sm:w-full sm:translate-y-0">
-          <span className="flex flex-col gap-4">
-            <h3 className="font-medium border-b border-[#d7743a] w-fit">About Us</h3>
-            <p className="max-w-[30em]">
-              Roots Collective is a non-profit events organization with a mission to spark new connections and interests through celebrating Asian pop culture and empowering Asian minorities in North America.
-            </p>
-          </span>
-          <a href="/about" className="text-[#995229]">Learn More About Us</a>
-        </div>
-      </section>
-    );
-  };
-  
+import React from 'react';
+
+const LandingAbout: React.FC = () => {
+  return (
+    <section className="flex flex-row relative justify-center items-center pt-8 px-[15vw] pb-16 min-h-[40em]">
+      {/* Background Image */}
+      <div className="absolute top-0 left-0 min-h-[90%] w-[50%] bg-cover bg-center rounded-xl md:w-full md:relative md:h-[30em]" style={{ backgroundImage: `url(${LandingAboutLogo})` }}></div>
+
+      {/* Content Section */}
+      <div className="bg-[#efeeee] relative p-8 rounded-xl flex flex-col justify-center md:w-[50%] top-[50px] right-28 md:right-40 sm:right-auto">
+        <span className="flex flex-col justify-center gap-4">
+          <h3 className="text-lg font-medium border-b-2 border-[#d7743a] w-fit show">About Us</h3>
+          <p className="max-w-[30em] show mb-4">
+            Roots Collective is a non-profit events organization with a mission to spark new
+            connections and interests through celebrating Asian pop culture and empowering Asian
+            minorities in North America.
+          </p>
+        </span>
+        <a
+          href="/about"
+          className="text-[#995229] show"
+        >
+          Learn More About Us
+        </a>
+      </div>
+    </section>
+  );
+};
 
 export default LandingAbout;
+
+

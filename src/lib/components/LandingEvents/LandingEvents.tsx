@@ -75,7 +75,7 @@ const EventSection: React.FC = () => {
   return (
     <section className="flex justify-center flex-wrap gap-8 w-full">
       <h3 className="show font-aleo">What type of events do we host?</h3>
-      <div className="flex flex-row px-[12vw] flex-wrap gap-8">
+      <div className="flex flex-row px-[12vw] justify-center flex-wrap gap-8">
         {events.map((event, index) => (
           <EventCard
             key={index}

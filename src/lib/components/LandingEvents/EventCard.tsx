@@ -7,7 +7,7 @@ interface EventCardProps {
 
 const EventCard: React.FC<EventCardProps> = ({ title, description, pastEvents, svg }) => {
   return (
-    <div className="flex flex-col bg-[#fdf1ea] rounded-xl flex-0 p-4 gap-3 w-[500px]">
+    <div className="flex flex-col bg-[#fdf1ea] rounded-xl flex-0 p-6 gap-3 max-w-[500px]">
       <div>{svg}</div>
       <h4 className="text-left font-medium text-lg min-h-[2rem]">
         {title}
