@@ -82,7 +82,7 @@
   line-height: 1.4;
   color: #201d15;
   -webkit-font-smoothing: antialiased;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 html {
@@ -136,7 +136,7 @@ b {
 }
 
 /* Don't add hidden yet. do so at the end*/
-/* .hidden {
+.hidden {
     opacity: 0;
     scale: 0;
-} */
+}

@@ -1,7 +1,7 @@
 import React from "react";
 const Hero: React.FC = ()=> {
     return (
-    <section className="flex flex-col justify-center gap-12 p-32 md:px-10 lg:px-15 bg-[#fdf1ea] relative overflow-hidden m-0 mb-4">
+    <section className=" flex flex-col justify-center gap-12 p-32 md:px-10 lg:px-15 bg-[#fdf1ea] relative overflow-hidden m-0 mb-4">
         <div className="flex flex-col gap-3 bg-transparent z-40 sm:ml-4 md:ml-8 lg:ml-16 xl:ml-24">
             <span className="bg-transparent">
                 <h1 className="bg-transparent font-medium font-aleo" >Unity through</h1>

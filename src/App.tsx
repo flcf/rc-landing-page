@@ -9,6 +9,7 @@ import Partners from './lib/components/Partners/Partners';
 import CTA from './lib/components/CTA/CTA';
 
 const App = ()=> {
+  console.log("Displays")
   return (
     <div className="App">
       <Navigation/>
