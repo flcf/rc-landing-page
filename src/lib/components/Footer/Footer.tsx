@@ -1,9 +1,9 @@
 const Footer: React.FC = ()=> {
     return(
 
-        <section>
-	<div>
-		<svg className="hidden" width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <section className="flex flex-wrap justify-between items-center h-[20em] bg-[#f8c8c8] px-[15vw] py-16">
+	<div className="flex justify-center items-center gap-4 bg-transparent last:gap-8">
+		<svg className="show h-8 w-8 bg-transparent" width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path
 				fill-rule="evenodd"
 				clip-rule="evenodd"
@@ -31,11 +31,11 @@ const Footer: React.FC = ()=> {
 				fill="#F1742D"
 			/>
 		</svg>
-		<p className="hidden">Roots Collective, 2024</p>
+		<p className="show">Roots Collective, 2024</p>
 	</div>
-	<div>
-		<a className="hidden" href="https://www.instagram.com/rootscollectiveyvr/" target="_blank" rel="noopener noreferrer">
-			<svg
+	<div className="flex justify-center items-center gap-4 bg-transparent last:gap-8">
+		<a className="show" href="https://www.instagram.com/rootscollectiveyvr/" target="_blank" rel="noopener noreferrer">
+			<svg className="show h-8 w-8 bg-transparent"
 				width="20"
 				height="19"
 				viewBox="0 0 20 19"
@@ -47,8 +47,8 @@ const Footer: React.FC = ()=> {
 					fill="#241C15"
 				/>
 			</svg></a>
-		<a className="hidden" href="https://ca.linkedin.com/company/rootscollective" target="_blank" rel="noopener noreferrer">
-			<svg
+		<a className="show" href="https://ca.linkedin.com/company/rootscollective" target="_blank" rel="noopener noreferrer">
+			<svg className="show h-8 w-8 bg-transparent"
 				width="18"
 				height="18"
 				viewBox="0 0 18 18"
@@ -62,8 +62,8 @@ const Footer: React.FC = ()=> {
 					fill="#241C15"
 				/>
 			</svg></a>
-		<a href="https://www.instagram.com/rootscollectiveyvr/" className="hidden">
-			<svg
+		<a className='show' href="https://www.instagram.com/rootscollectiveyvr/">
+			<svg className="show h-8 w-8 bg-transparent"
 				width="21"
 				height="15"
 				viewBox="0 0 21 15"

@@ -1,14 +1,12 @@
-const Navigation: React.FC = () => {
+import Logo from '../../../static/assets/Logo.png'
+
+const Navigation = () => {
   return (
-    <nav className="flex items-center justify-between h-16 w-full px-[15vw] mx-auto overflow-hidden">
-      <a href="/">
-        <img
-          src="/assets/Logo.png"
-          alt="Logo"
-          className="scale-[1.2] max-w-[40vw]"
-        />
+    <nav className='flex items-center justify-between h-[4em] w-full px-[15vw] mx-auto overflow-hidden'>
+      <a className="show last:font-montserrat last:font-medium" href="/">
+        <img className='scale-110 max-w-[40vw]' src={Logo} alt="Logo" />
       </a>
-      <a href="/about" className="font-montserrat font-medium">
+      <a className="show" href="/about">
         About Us
       </a>
     </nav>
