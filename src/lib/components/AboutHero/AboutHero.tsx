@@ -1,4 +1,4 @@
-const AboutHero = ()=> {
+const AboutHero: React.FC = ()=> {
     return(
         <section>
     <div>

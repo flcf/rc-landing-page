@@ -1,4 +1,4 @@
-const Partners = ()=> {
+const Partners: React.FC = ()=> {
 
     interface Partner {
         logo: string,

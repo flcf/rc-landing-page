@@ -1,4 +1,4 @@
-const Navigation = () => {
+const Navigation: React.FC = () => {
   return (
     <nav>
       <a className="hidden" href="/">

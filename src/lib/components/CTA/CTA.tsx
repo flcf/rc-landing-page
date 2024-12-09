@@ -1,4 +1,4 @@
-const CTA = () => {
+const CTA: React.FC = () => {
   return (
     <section>
       <span>

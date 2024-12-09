@@ -1,4 +1,4 @@
-const WWD = ()=> {
+const WWD: React.FC = ()=> {
     return(
         <section>
     <h2>What we do</h2>

@@ -1,4 +1,4 @@
-const LandingEvents = ()=> {
+const LandingEvents: React.FC = ()=> {
     return(
         <section>
         <h3 className="hidden">What type of events do we host?</h3>

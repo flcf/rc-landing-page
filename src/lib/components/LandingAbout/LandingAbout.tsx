@@ -1,4 +1,4 @@
-const LandingAbout = ()=> {
+const LandingAbout: React.FC = ()=> {
     return(
         <section>
     <div className="hidden">
