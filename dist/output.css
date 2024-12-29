@@ -835,6 +835,10 @@ a {
   margin-bottom: 1rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1042,6 +1046,18 @@ a {
   padding: 2rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .px-\[0\.05em\] {
   padding-left: 0.05em;
   padding-right: 0.05em;
@@ -1088,6 +1104,24 @@ a {
   padding-top: 2rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1117,6 +1151,11 @@ a {
 .text-\[\#da773d\] {
   --tw-text-opacity: 1;
   color: rgb(218 119 61 / var(--tw-text-opacity));
+}
+
+.text-\[\#f38c51\] {
+  --tw-text-opacity: 1;
+  color: rgb(243 140 81 / var(--tw-text-opacity));
 }
 
 *,

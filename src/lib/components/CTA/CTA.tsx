@@ -1,4 +1,4 @@
-const CTA = () => {
+const CTA: React.FC = () => {
   return (
     <section className="flex flex-col justify-center px-[15vw] py-[8em] gap-8 bg-[#fdf1ea]">
       <span className="flex flex-col gap-4 bg-transparent max-w-[80vw]">
