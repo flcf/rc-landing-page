@@ -1054,6 +1054,10 @@ a {
   padding: 0.75rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-\[0\.05em\] {
   padding-left: 0.05em;
   padding-right: 0.05em;
@@ -1102,6 +1106,8 @@ a {
 
 .pt-1 {
   padding-top: 0.25rem;
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .pt-3 {
