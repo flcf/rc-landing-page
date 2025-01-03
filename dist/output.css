@@ -835,12 +835,12 @@ a {
   margin-bottom: 1rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-20 {
@@ -1046,18 +1046,6 @@ a {
   padding: 2rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
 .px-\[0\.05em\] {
   padding-left: 0.05em;
   padding-right: 0.05em;
@@ -1104,20 +1092,6 @@ a {
   padding-top: 2rem;
 }
 
-.pt-1 {
-  padding-top: 0.25rem;
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1139,8 +1113,17 @@ a {
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-\[\#995229\] {
@@ -1156,6 +1139,10 @@ a {
 .text-\[\#f38c51\] {
   --tw-text-opacity: 1;
   color: rgb(243 140 81 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 *,

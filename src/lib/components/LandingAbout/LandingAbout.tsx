@@ -1,4 +1,4 @@
-import LandingAboutLogo from "../../../static/assets/LandingAbout.png";
+import LandingAboutLogo from "../../../static/assets/imgs/LandingAbout.png";
 import React from 'react';
 
 const LandingAbout: React.FC = () => {

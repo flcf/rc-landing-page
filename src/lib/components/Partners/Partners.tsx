@@ -2,14 +2,14 @@
 import React from 'react';
 
 // Import assets if located in `src/`
-import ccgLogo from '../../../static/assets/ccg.png';
-import hnLogo from '../../../static/assets/hn.png';
-import ipLogo from '../../../static/assets/ip.png';
-import sovLogo from '../../../static/assets/sov.png';
-import msLogo from '../../../static/assets/ms.png';
-import tfLogo from '../../../static/assets/tf.png';
-import bbLogo from '../../../static/assets/bb.png';
-import ttLogo from '../../../static/assets/tt.png';
+import ccgLogo from '../../../static/assets/imgs/ccg.png';
+import hnLogo from '../../../static/assets/imgs/hn.png';
+import ipLogo from '../../../static/assets/imgs/ip.png';
+import sovLogo from '../../../static/assets/imgs/sov.png';
+import msLogo from '../../../static/assets/imgs/ms.png';
+import tfLogo from '../../../static/assets/imgs/tf.png';
+import bbLogo from '../../../static/assets/imgs/bb.png';
+import ttLogo from '../../../static/assets/imgs/tt.png';
 
 
 
