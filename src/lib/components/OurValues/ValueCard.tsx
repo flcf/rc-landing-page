@@ -11,7 +11,7 @@ const ValueCard: React.FC<ValueCardProps> = ({title, description})=> {
             <div>
             <h3 className="font-aleo xl:text-3xl w-fit border-b-2 border-[#d7743a]">{title}</h3>
             {/* <div className="w-8 h-[2px] rounded-sm bg-[#f38c51] mt-1 mb-4"></div> */}
-            <p className="text-xs xl:text-lg mt-2">{description}</p>
+            <p className="text-xs xl:text-base mt-2">{description}</p>
 
             </div>
             
