@@ -3,9 +3,10 @@ type MemberCardProps = {
     lastName: string;
     role: string;
     image: string;
+    bio: string;
 };
 
-const MemberCard: React.FC<MemberCardProps> = ({image, firstName, lastName, role})=> {
+const MemberCard: React.FC<MemberCardProps> = ({image, firstName, lastName, role, bio})=> {
     
 
     const formatName = (firstName: string, lastName: string) => {
@@ -18,10 +19,14 @@ const MemberCard: React.FC<MemberCardProps> = ({image, firstName, lastName, role
 
     };
     
-    return(<div>
-        <img src={image} alt={formatName(firstName, lastName)}/>
-        <h3>${formatName(firstName, lastName)}</h3>
-        <p>{role}</p>
+    return(<div className="flex md:flex-col flex-row gap-2 md:w-full md:h-auto mb-3">
+        <img className="rounded-md object-cover w-40 h-40 md:w-full md:h-auto" src={image} alt={formatName(firstName, lastName)}/>
+        <div className="flex flex-col overflow-hidden">
+            <h5>{formatName(firstName, lastName)}</h5>
+            <p className="text-sm">{role}</p>
+            <span className="text-[0.5rem] md:text-sm">{bio}</span>
+        </div>
+        
 
 
 

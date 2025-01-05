@@ -1,10 +1,12 @@
+
+import artsAndCulture from "../../../static/assets/imgs/artsAndCulture.png"
 const WWD: React.FC = ()=> {
     return(
         <section>
     <h2>What we do</h2>
     <span>
         <div>
-            <img src="/assets/artsAndCulture.png" alt=""/>
+            <img className="h-15" src={artsAndCulture} alt="Culture" />
         </div>
         <div>
             <h3>Promote Asian pop Culture</h3>

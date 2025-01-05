@@ -11,16 +11,13 @@ import tfLogo from '../../../static/assets/imgs/tf.png';
 import bbLogo from '../../../static/assets/imgs/bb.png';
 import ttLogo from '../../../static/assets/imgs/tt.png';
 
-
-
 const Partners = () => {
     interface Partner {
         logo: string;
         href: string;
-        alt: string; // Add descriptive text for accessibility
+        alt: string;
     }
 
-    // Define partner data
     const partners: Partner[] = [
         {
             logo: ccgLogo, 
