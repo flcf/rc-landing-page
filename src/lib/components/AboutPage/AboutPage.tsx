@@ -10,7 +10,6 @@ const AboutPage: React.FC = ()=> {
     return(
         <div>
             <AboutHero/>
-            <WWD/>
             <MTT/>
             <OurValues/>
             <CTA/>
