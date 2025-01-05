@@ -1,4 +1,4 @@
-const Footer = ()=> {
+const Footer: React.FC = ()=> {
     return(
 
         <section className="flex flex-wrap justify-between items-center h-[20em] bg-[#f8c8c8] px-[15vw] py-16">
