@@ -12,9 +12,10 @@ const LandingAbout: React.FC = () => {
         <span className="flex flex-col justify-center gap-4">
           <h3 className="text-lg font-medium border-b-2 border-[#d7743a] w-fit">About Us</h3>
           <p className=" text-xs md:text-sm mb-4">
-            Roots Collective is a non-profit events organization with a mission to spark new
-            connections and interests through celebrating Asian pop culture and empowering Asian
-            minorities in North America.
+            Roots Collective, a non-profit founded in 2018 in Vancouver, aims to make the city more connected and diverse. We foster connections by celebrating Asian pop culture in North America!
+            <br />
+            <br />
+            Expanded to Calgary in 2024, we organize community events and workshops, including Dim Sum Making, K-pop dance classes, and Calgary’s first Noodle Festival
           </p>
         </span>
         <a
