@@ -24,7 +24,7 @@
     }
     
     .btn {
-        @apply w-fit font-black text-sm border-0 h-auto text-[#fefdfc] bg-[#d25d19] rounded-full py-3 px-12 text-center flex justify-center font-montserrat transition-colors duration-300 ease-in-out;
+        @apply w-fit text-sm border-0 h-auto text-[#fefdfc] bg-[#d25d19] rounded-full py-3 px-12 text-center flex justify-center font-montserrat transition-colors duration-300 ease-in-out;
     }
     
     .btn:hover {

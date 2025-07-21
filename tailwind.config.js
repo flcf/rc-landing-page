@@ -6,7 +6,11 @@ module.exports = {
      fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
         aleo: ['Aleo', 'sans-serif']
-     }
+     },
+     colors: {
+        'rc-bg': '#fdf1ea',
+        'rc-orange': '#d25d19',
+      }
     },
   },
   plugins: [],

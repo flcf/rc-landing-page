@@ -1,7 +1,9 @@
+const currentYear = new Date().getFullYear();
+
 const Footer: React.FC = ()=> {
     return(
 
-        <section className="flex flex-wrap justify-between items-center h-[20em] bg-[#f8c8c8] px-[15vw] py-16">
+        <section className="flex flex-wrap justify-between items-center h-[20em] bg-[#FFE2BC] px-[15vw] py-16">
 	<div className="flex justify-center items-center gap-4 bg-transparent last:gap-8">
 		<svg className="show h-8 w-8 bg-transparent" width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path
@@ -31,7 +33,7 @@ const Footer: React.FC = ()=> {
 				fill="#F1742D"
 			/>
 		</svg>
-		<p className="show">Roots Collective, 2024</p>
+		<p className="show">Roots Collective, {currentYear}</p>
 	</div>
 	<div className="flex justify-center items-center gap-4 bg-transparent last:gap-8">
 		<a className="show" href="https://www.instagram.com/rootscollectiveyvr/" target="_blank" rel="noopener noreferrer">
@@ -75,6 +77,12 @@ const Footer: React.FC = ()=> {
 					fill="#241C15"
 				/>
 			</svg></a>
+
+		<a className='show' href="https://www.instagram.com/">
+			<svg  className="show h-8 w-8 bg-transparent" width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.3303 2.1132C18.7535 1.39129 17.0889 0.879146 15.3789 0.589844C15.1449 1.00813 14.9332 1.43849 14.7447 1.87913C12.9233 1.60467 11.071 1.60467 9.24963 1.87913C9.06097 1.43854 8.84926 1.00818 8.61537 0.589844C6.90435 0.881589 5.23861 1.39495 3.6602 2.11698C0.526645 6.75313 -0.322812 11.2741 0.101917 15.7309C1.937 17.0868 3.99099 18.1179 6.17459 18.7796C6.66628 18.1183 7.10135 17.4167 7.47521 16.6823C6.76512 16.4171 6.07977 16.0899 5.42707 15.7045C5.59885 15.5799 5.76685 15.4516 5.92919 15.327C7.82839 16.2201 9.90126 16.6832 12 16.6832C14.0987 16.6832 16.1716 16.2201 18.0708 15.327C18.235 15.461 18.403 15.5894 18.5729 15.7045C17.9189 16.0906 17.2323 16.4184 16.521 16.6842C16.8944 17.4183 17.3295 18.1192 17.8216 18.7796C20.0071 18.1206 22.0626 17.0899 23.898 15.7328C24.3964 10.5644 23.0467 6.08489 20.3303 2.1132ZM8.0132 12.99C6.82962 12.99 5.8518 11.9159 5.8518 10.5946C5.8518 9.27318 6.79564 8.18965 8.00942 8.18965C9.2232 8.18965 10.1935 9.27318 10.1727 10.5946C10.1519 11.9159 9.21943 12.99 8.0132 12.99ZM15.9868 12.99C14.8013 12.99 13.8273 11.9159 13.8273 10.5946C13.8273 9.27318 14.7711 8.18965 15.9868 8.18965C17.2024 8.18965 18.1652 9.27318 18.1444 10.5946C18.1236 11.9159 17.193 12.99 15.9868 12.99Z" fill="black"/>
+</svg>
+</a>
 	</div>
 </section>
     );

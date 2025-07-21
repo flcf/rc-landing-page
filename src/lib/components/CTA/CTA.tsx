@@ -10,7 +10,7 @@ const CTA: React.FC = () => {
           charmer, we have a variety of opportunities.
         </p>
       </span>
-      <button className="show btn">Join Now</button>
+      <button className="btn">Join Now</button>
     </section>
   );
 };
