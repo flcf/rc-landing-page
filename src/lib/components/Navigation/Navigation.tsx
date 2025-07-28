@@ -10,6 +10,9 @@ const Navigation = () => {
       <Link className="show" to="/about">
         About Us
       </Link>
+      <Link className="show" to="/events">
+        Events
+      </Link>
     </nav>
   );
 };
