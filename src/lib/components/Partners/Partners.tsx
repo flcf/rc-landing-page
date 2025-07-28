@@ -1,5 +1,6 @@
 
-import React from 'react';
+import React, { useRef } from 'react';
+
 
 // Import assets if located in `src/`
 import ccgLogo from '../../../static/assets/imgs/ccg.png';
@@ -61,15 +62,26 @@ const Partners = () => {
         },
     ];
 
+    const infinitePartners = [...partners, ...partners];
     return (
-        <section className='px-[10vw] py-16 flex flex-col justify-center items-center gap-8 min-h-[25em]'>
-            <h3 className='text-center font-medium font-aleo'>Our Partners</h3>
-            <div className="flex justify-center items-center flex-wrap gap-[3em]">
-                {partners.map((partner, index) => (
-                    <a key={index} className="show" href={partner.href} target="_blank" rel="noopener noreferrer">
-                        <img className="h-20" src={partner.logo} alt={partner.alt} />
-                    </a>
-                ))}
+        <section className="px-[10vw] py-16 flex flex-col justify-center items-center gap-8 min-h-[25em]">
+            <h3 className="text-center font-medium font-aleo">Our Partners</h3>
+            <div className="relative w-full overflow-hidden">
+                <div className="flex items-center">
+                    <div className="flex animate-scroll gap-[3em]">
+                        {infinitePartners.map((partner, idx) => (
+                            <a
+                                key={idx}
+                                className="show flex-shrink-0"
+                                href={partner.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="h-20" src={partner.logo} alt={partner.alt} />
+                            </a>
+                        ))}
+                    </div>
+                </div>
             </div>
         </section>
     );

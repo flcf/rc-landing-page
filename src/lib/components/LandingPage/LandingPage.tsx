@@ -4,6 +4,7 @@ import LandingAbout from '../LandingAbout/LandingAbout';
 import LandingEvents from '../LandingEvents/LandingEvents';
 import Partners from '../Partners/Partners';
 import UpcomingEvents from '../UpcomingEvents/UpcomingEvents';
+import NewsLetter from '../NewsLetter/NewsLetter';
 const LandingPage: React.FC = ()=> {
     return(
         <div>
@@ -12,6 +13,7 @@ const LandingPage: React.FC = ()=> {
             <Partners/>
             <LandingAbout/>
             <CTA/>
+            <NewsLetter/>
         </div>
 
     );
