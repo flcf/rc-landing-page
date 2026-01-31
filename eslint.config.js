@@ -17,9 +17,9 @@ export default tseslint.config(
       },
     },
     rules: {
-      // Override logic rules here. For stylistic rules, edit .prettierrc instead
       ...pluginReact.configs.recommended.rules,
       ...pluginReact.configs['jsx-runtime'].rules, // For React 17+ JSX transform
+      quotes: ['error', 'single'],
     },
   },
   eslintConfigPrettier,
