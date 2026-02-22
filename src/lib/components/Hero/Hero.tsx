@@ -1,5 +1,6 @@
 import React from "react";
 import ChevronButton from "../ChevronButton/ChevronButton";
+
 const Hero: React.FC = () => {
   return (
     <section
@@ -52,10 +53,11 @@ const Hero: React.FC = () => {
           Join us in celebrating Asian pop culture, empowering local
           communities, and supporting minority-owned businesses.
         </p>
-        <ChevronButton 
+        {/* TODO: Hide Join Our Next Event button until after Upcoming Events is visible */}
+        {/* <ChevronButton 
           onClick={() => {}}
           label='Join Our Next Event'
-        />
+        /> */}
       </div>
       {/* SVGs - adjust position and size responsively */}
       <svg

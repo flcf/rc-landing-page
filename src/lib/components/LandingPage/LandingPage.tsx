@@ -10,7 +10,8 @@ const LandingPage: React.FC = () => {
   return (
     <div>
       <Hero />
-      <UpcomingEvents />
+      {/* TODO: Hide until we add backend API to fetch upcoming events */}
+      {/* <UpcomingEvents /> */}
       <LandingAbout />
       <LandingEvents />
       <Partners />
