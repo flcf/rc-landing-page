@@ -1,22 +1,19 @@
-import AboutHero from "../AboutHero/AboutHero";
-import CTA from "../CTA/CTA";
-import MTT from "../MTT/MTT";
-import OurValues from "../OurValues/OurValues";
-import WWD from "../WWD/WWD";
+import AboutHero from '../AboutHero/AboutHero';
+import CallToAction from '../CallToAction/CallToAction';
+import MeetTheTeam from '../MeetTheTeam/MeetTheTeam';
+import OurValues from '../OurValues/OurValues';
+import WWD from '../WWD/WWD';
 
-
-const AboutPage: React.FC = ()=> {
-
-    return(
-        <div>
-            <AboutHero/>
-            <MTT/>
-            <OurValues/>
-            <CTA/>
-        </div>
-        
-    )
-
+const AboutPage: React.FC = () => {
+  return (
+    <div>
+      <AboutHero />
+      <MeetTheTeam />
+      {/* TODO: Uncomment OurValues section after filling in section */}
+      {/* <OurValues /> */}
+      <CallToAction />
+    </div>
+  );
 };
 
 export default AboutPage;
