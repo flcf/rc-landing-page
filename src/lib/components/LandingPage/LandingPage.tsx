@@ -1,5 +1,5 @@
 import Hero from '../Hero/Hero';
-import CTA from '../CTA/CTA';
+import CallToAction from '../CallToAction/CallToAction';
 import LandingAbout from '../LandingAbout/LandingAbout';
 import LandingEvents from '../LandingEvents/LandingEvents';
 import WWD from '../WWD/WWD'; //where does this go?
@@ -11,7 +11,7 @@ const LandingPage: React.FC = () => {
       <LandingAbout />
       <LandingEvents />
       <Partners />
-      <CTA />
+      <CallToAction />
     </div>
   );
 };

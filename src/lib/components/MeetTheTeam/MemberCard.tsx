@@ -6,13 +6,7 @@ type MemberCardProps = {
   bio: string;
 };
 
-const MemberCard: React.FC<MemberCardProps> = ({
-  image,
-  firstName,
-  lastName,
-  role,
-  bio,
-}) => {
+const MemberCard: React.FC<MemberCardProps> = ({ image, firstName, lastName, role, bio }) => {
   const formatName = (firstName: string, lastName: string) => {
     const toCapitalize = [firstName, lastName];
     toCapitalize.map((value) => value[0].toUpperCase() + value.slice(1));
@@ -23,11 +17,7 @@ const MemberCard: React.FC<MemberCardProps> = ({
 
   return (
     <div className="flex md:flex-col flex-row gap-2 md:w-full md:h-auto mb-3">
-      <img
-        className="rounded-md object-cover w-40 h-40 md:w-full md:h-auto"
-        src={image}
-        alt={formatName(firstName, lastName)}
-      />
+      <img className="rounded-md object-cover w-40 h-40 md:w-full md:h-auto" src={image} alt={formatName(firstName, lastName)} />
       <div className="flex flex-col overflow-hidden">
         <h5>{formatName(firstName, lastName)}</h5>
         <p className="text-sm">{role}</p>
