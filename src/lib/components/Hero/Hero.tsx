@@ -1,29 +1,99 @@
-import React from 'react';
+import React from "react";
 const Hero: React.FC = () => {
   return (
-    <section className=" flex flex-col justify-center gap-12 p-32 md:px-10 lg:px-15 bg-[#fdf1ea] relative overflow-hidden m-0 mb-4">
-      <div className="flex flex-col gap-3 bg-transparent z-40 sm:ml-4 md:ml-8 lg:ml-16 xl:ml-24">
+    <section
+      className="
+        flex flex-col justify-center items-start gap-8
+        px-4 py-16
+        sm:px-8 sm:py-20
+        md:px-16 md:py-28
+        lg:px-24 lg:py-32
+        xl:px-40 xl:py-36
+        bg-[#fdf1ea] relative overflow-hidden m-0
+        min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh]
+      "
+    >
+      <div
+        className="
+          flex flex-col gap-3 bg-transparent z-40
+          ml-0 sm:ml-4 md:ml-8 lg:ml-16 xl:ml-24
+        "
+      >
         <span className="bg-transparent">
-          <h1 className="bg-transparent font-medium font-aleo">
-            Unity through
+          <h1
+            className="
+              bg-transparent font-medium font-aleo
+              text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+              leading-tight
+            "
+          >
+            Celebrating Culture,
           </h1>
-          <h1 className="font-medium font-aleo bg-[#f38c51] w-fit px-[0.05em] rounded-[0.1em]">
-            Asian Pop Culture
+          <h1
+            className="
+              font-medium font-aleo bg-[#f38c51] w-fit
+              px-[0.15em] rounded-[0.1em]
+              text-3xl sm:text-4xl md:text-5xl lg:text-6xl
+              leading-tight
+              mt-1
+            "
+          >
+            Building Community
           </h1>
         </span>
-        <p className="bg-transparent max-w-lg">
-          Spark new connections by celebrating Asian Pop Culture and empowering
-          Asian minorities and local businesses.
+        <p
+          className="
+            bg-transparent max-w-xs sm:max-w-md md:max-w-lg
+            text-base sm:text-lg md:text-xl
+            mt-2 font-montserrat
+          "
+        >
+          Join us in celebrating Asian pop culture, empowering local
+          communities, and supporting minority-owned businesses.
         </p>
-        <button className="btn">Join Our Next Event</button>
+        <button
+          className="
+            btn mt-4
+            font-montserrat
+            text-base sm:text-lg md:text-xl
+            px-6 py-2
+            flex items-center gap-2 shadow-lg
+        "
+        >
+          Join Our Next Event
+          {/* Chevron SVG */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={3}
+            stroke="white"
+            className="w-5 h-5 ml-2"
+            aria-hidden="true"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
       </div>
+      {/* SVGs - adjust position and size responsively */}
       <svg
-        className="absolute bg-transparent w-[110%] h-full left-[40vw] top-[33%] z-[2]"
+        className="
+          absolute bg-transparent
+          w-[120%] h-[60%]
+          left-[40vw] top-[33%] z-[2]
+          sm:w-[110%] sm:h-[70%]
+          md:w-[100%] md:h-[80%]
+        "
         width="581"
         height="607"
         viewBox="-2 -2 581 607"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
       >
         <path
           fillRule="evenodd"
@@ -34,12 +104,19 @@ const Hero: React.FC = () => {
         />
       </svg>
       <svg
-        className="absolute bg-transparent w-[110%] h-full left-[40vw] top-[50%] z-[1]"
+        className="
+          absolute bg-transparent
+          w-[120%] h-[60%]
+          left-[40vw] top-[50%] z-[1]
+          sm:w-[110%] sm:h-[70%]
+          md:w-[100%] md:h-[80%]
+        "
         width="581"
         height="607"
         viewBox="-2 -2 581 607"
         fill="rgb(241,116,45)"
         xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
       >
         <path
           fillRule="evenodd"
@@ -50,12 +127,19 @@ const Hero: React.FC = () => {
         />
       </svg>
       <svg
-        className="absolute bg-transparent w-[110%] h-full left-[-45vw] top-[-80%] z-[2]"
+        className="
+    absolute bg-transparent
+    w-[120%] h-[60%]
+    left-[-45vw] top-[-60%] z-[2]
+    sm:w-[110%] sm:h-[70%] sm:top-[-50%]
+    md:w-[100%] md:h-[80%] md:top-[-60%]
+  "
         width="561"
         height="593"
         viewBox="-2 -2 561 593"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
       >
         <path
           fillRule="evenodd"
@@ -66,12 +150,19 @@ const Hero: React.FC = () => {
         />
       </svg>
       <svg
-        className="absolute bg-transparent w-[110%] h-full left-[-40vw] top-[-80%] z-[1]"
+        className="
+          absolute bg-transparent
+          w-[120%] h-[60%]
+          left-[-40vw] top-[-60%] z-[1]
+          sm:w-[110%] sm:h-[70%] sm:top-[-50%]
+          md:w-[100%] md:h-[80%] md:top-[-60%]
+        "
         width="559"
         height="591"
         viewBox="-1 -1 559 591"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
       >
         <path
           fillRule="evenodd"
