@@ -3,11 +3,16 @@ import { ReactComponent as InstagramLogo } from 'static/assets/imgs/instagramLog
 import { ReactComponent as LinkedInLogo } from 'static/assets/imgs/linkedInLogo.svg';
 
 const Footer: React.FC = () => {
+  const foundingYear = 2019;
+  const currentYear = new Date().getFullYear();
+
   return (
     <section className="flex flex-wrap justify-between items-center h-[20em] bg-[#f8c8c8] px-[15vw] py-16">
       <div className="flex justify-center items-center gap-4 bg-transparent last:gap-8">
         <RootsCollectiveLogo />
-        <p className="show">Roots Collective, 2024</p>
+        <p className="show">
+          Roots Collective, {foundingYear}–{currentYear}
+        </p>
       </div>
       <div className="flex justify-center items-center gap-4 bg-transparent last:gap-8">
         <a
