@@ -1,3 +1,9 @@
+# Roots Collective Landing Page
+
+You can see the live deploy at https://rootscollectivecanada.com/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -31,7 +37,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run deploy`
+
+Deploys the app using Firebase
+
+You must have the Firebase CLI installed (https://firebase.google.com/docs/cli) and be logged into the Roots Collective account.
+
+Please deploy only while on the `main` branch.
 
 ### `npm run eject`
 
