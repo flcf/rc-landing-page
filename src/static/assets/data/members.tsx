@@ -7,7 +7,6 @@ import GinaHsuImg from '../imgs/memberImgs/gina_hsu.jpg';
 import CJGarciaImg from '../imgs/memberImgs/cj_garcia.jpg';
 import XtineRynaVillanuevaImg from '../imgs/memberImgs/xtine_ryna_villanueva.jpg';
 import ZajiraDujaliImg from '../imgs/memberImgs/zajira_dujali.jpg';
-import NevilleChandImg from '../imgs/memberImgs/neville_chand.jpg';
 import RichardLeeImg from '../imgs/memberImgs/richard_lee.jpg';
 import { RoleGroup, MemberCardProps } from 'lib/components/MeetTheTeam/types';
 
@@ -86,15 +85,6 @@ const members: MemberCardProps[] = [
   },
   {
     id: 9,
-    firstName: 'Neville',
-    lastName: 'Chand',
-    role: 'Photowalk Lead',
-    roleGroup: RoleGroup.COORDINATOR,
-    image: NevilleChandImg,
-    bio: 'A model and photographer who’s keen on helping Vancouver creatives connect with one another to help create magic through photography and other forms of digital media. With a seasoned background in runway modelling, I’m able to help guide you find your best angles regardless of experience!',
-  },
-  {
-    id: 10,
     firstName: 'Richard',
     lastName: 'Lee',
     role: 'Website Coordinator',
