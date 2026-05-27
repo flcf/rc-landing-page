@@ -5,7 +5,6 @@ import StoneHeImg from '../imgs/memberImgs/stone_he.jpg';
 import VictoriaLeeImg from '../imgs/memberImgs/victoria_lee.jpg';
 import GinaHsuImg from '../imgs/memberImgs/gina_hsu.jpg';
 import CJGarciaImg from '../imgs/memberImgs/cj_garcia.jpg';
-import XtineRynaVillanuevaImg from '../imgs/memberImgs/xtine_ryna_villanueva.jpg';
 import ZajiraDujaliImg from '../imgs/memberImgs/zajira_dujali.jpg';
 import RichardLeeImg from '../imgs/memberImgs/richard_lee.jpg';
 import { RoleGroup, MemberCardProps } from 'lib/components/MeetTheTeam/types';
@@ -67,15 +66,6 @@ const members: MemberCardProps[] = [
   },
   {
     id: 7,
-    firstName: 'Xtine "Ryna X"',
-    lastName: 'Villanueva',
-    role: 'People and Community Coordinator',
-    roleGroup: RoleGroup.COORDINATOR,
-    image: XtineRynaVillanuevaImg,
-    bio: 'A Filipino-Canadian with a professional background in human resources and event planning, eager to apply my specialized skills to elevate the exposure of Asian culture, communities, and businesses. A veteran cosplayer since 2007, passionate about engaging and showcasing the cosplay community where possible.',
-  },
-  {
-    id: 8,
     firstName: 'Zajira',
     lastName: 'Dujali',
     role: 'Social Media and Events Coordinator',
@@ -84,7 +74,7 @@ const members: MemberCardProps[] = [
     bio: 'An RC associate fixated in Social Media and Event Planning. Highly passionate in promoting Asian culture and providing devotion and support in Canadian-Asian communities throughout the city. Striving to expand my skills and utilize my time to provide assistance.',
   },
   {
-    id: 9,
+    id: 8,
     firstName: 'Richard',
     lastName: 'Lee',
     role: 'Website Coordinator',
