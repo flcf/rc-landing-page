@@ -5,7 +5,6 @@ import StoneHeImg from '../imgs/memberImgs/stone_he.jpg';
 import VictoriaLeeImg from '../imgs/memberImgs/victoria_lee.jpg';
 import GinaHsuImg from '../imgs/memberImgs/gina_hsu.jpg';
 import CJGarciaImg from '../imgs/memberImgs/cj_garcia.jpg';
-import ZajiraDujaliImg from '../imgs/memberImgs/zajira_dujali.jpg';
 import RichardLeeImg from '../imgs/memberImgs/richard_lee.jpg';
 import { RoleGroup, MemberCardProps } from 'lib/components/MeetTheTeam/types';
 
@@ -66,15 +65,6 @@ const members: MemberCardProps[] = [
   },
   {
     id: 7,
-    firstName: 'Zajira',
-    lastName: 'Dujali',
-    role: 'Social Media and Events Coordinator',
-    roleGroup: RoleGroup.COORDINATOR,
-    image: ZajiraDujaliImg,
-    bio: 'An RC associate fixated in Social Media and Event Planning. Highly passionate in promoting Asian culture and providing devotion and support in Canadian-Asian communities throughout the city. Striving to expand my skills and utilize my time to provide assistance.',
-  },
-  {
-    id: 8,
     firstName: 'Richard',
     lastName: 'Lee',
     role: 'Website Coordinator',
