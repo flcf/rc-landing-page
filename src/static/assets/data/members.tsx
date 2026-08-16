@@ -72,6 +72,15 @@ const members: MemberCardProps[] = [
     image: RichardLeeImg,
     bio: 'I’m a self-professed nerd with a background in software engineering and business. I’m passionate about being creative and making things, including arts and crafts. I strive to solve hard problems and make experiences that people enjoy.',
   },
+  {
+    id: 8,
+    firstName: 'Example',
+    lastName: 'Member',
+    role: 'A new person',
+    roleGroup: RoleGroup.COORDINATOR,
+    image: RichardLeeImg,
+    bio: 'You should stage me first!',
+  },
 ];
 
 export default members;
