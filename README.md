@@ -2,12 +2,6 @@
 
 You can see the live deploy at https://rootscollectivecanada.com/
 
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -20,15 +14,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm watch-tailwind`
-
-Runs tailwind to watch for changes in applied styling.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -37,13 +22,34 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+Please only build while on the `main` branch.
+
 ### `npm run deploy`
 
-Deploys the app using Firebase
+Deploys the app using Firebase. Make sure you run `npm run build` first
 
 You must have the Firebase CLI installed (https://firebase.google.com/docs/cli) and be logged into the Roots Collective account.
 
-Please deploy only while on the `main` branch.
+Please only deploy while on the `main` branch.
+
+# Misc
+
+> ![INFO]
+> These are all defaults written with the Create React App. You should never need to run these commands
+
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+### `npm watch-tailwind`
+
+Runs tailwind to watch for changes in applied styling.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run eject`
 
